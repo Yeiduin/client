@@ -1,0 +1,62 @@
+.divgeneral {
+  position: relative;
+  justify-content: center;
+  padding-bottom: 30px;
+
+  height: 100%;
+  width: 100%;
+  background-image: url(https://www.tooltyp.com/wp-content/uploads/2014/10/1900x920-8-beneficios-de-usar-imagenes-en-nuestros-sitios-web.jpg);
+  background-size: cover;
+  font-family: cursive;
+}
+
+.divgeneral form {
+  position: relative;
+  width: 50%;
+  margin-left: 20%;
+  padding-left: 80px;
+
+  border: solid;
+  border-color: black;
+  border-radius: 2rem;
+  background-color: rgb(25, 213, 150);
+}
+
+.divgeneral form select {
+  position: relative;
+  width: 50%;
+
+  background-color: rgb(220, 215, 225);
+  border-radius: 5px;
+}
+
+.divgeneral form button {
+  position: relative;
+  background-color: rgb(234, 135, 135);
+  margin-right: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.inputnum {
+  position: relative;
+  width: 10%;
+  background-color: rgb(220, 215, 225);
+  border-radius: 5px;
+}
+
+.inputtext {
+  position: relative;
+  width: 50%;
+  background-color: rgb(220, 215, 225);
+  border-radius: 5px;
+}
+
+.divgeneral h1 {
+  position: relative;
+  background-color: antiquewhite;
+  width: 40%;
+  text-align: center;
+  margin-left: 28%;
+
+  border-radius: 10px;
+}

@@ -1,0 +1,47 @@
+.list {
+  list-style-type: none;
+}
+
+.list li {
+  display: inline-block;
+  margin: 2px;
+
+  border-radius: 10rem;
+}
+
+.boton {
+  display: inline-flex;
+  justify-content: center;
+  margin-left: 40%;
+  height: 20px;
+}
+.boton p {
+  color: rgb(237, 232, 199);
+  position: relative;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  bottom: 14px;
+  height: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.nave {
+  margin: 0;
+  padding: 0;
+}
+
+.paginado {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 800px) {
+  .paginado {
+    background-color: rgb(5, 5, 5);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
