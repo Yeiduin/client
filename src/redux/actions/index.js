@@ -9,7 +9,7 @@ export const POST_ACTIVITY = "POST_ACTIVITY";
 export const getAllCountries = () => {
   return async function (dispatch) {
     try {
-      await fetch("http://localhost:3004/countries")
+      await fetch("http://165.227.95.185:3004/countries")
         .then((response) => response.json())
         .then((response) => {
           dispatch({ type: GET_ALL_COUNTRIES, payload: response });
@@ -22,7 +22,7 @@ export const getAllCountries = () => {
 
 export const getCountryDetail = (id) => {
   return async function (dispatch) {
-    await fetch(`http://localhost:3004/countries/${id}`)
+    await fetch(`http://165.227.95.185:3004/countries/${id}`)
       .then((response) => response.json())
       .then((response) => {
         dispatch({ type: GET_COUNTRYDETAIL, payload: response[0] });
@@ -32,7 +32,7 @@ export const getCountryDetail = (id) => {
 
 export const getNameCountry = (name) => {
   return async function (dispatch) {
-    await fetch(`http://localhost:3004/countries?name=${name}`)
+    await fetch(`http://165.227.95.185:3004/countries?name=${name}`)
       .then((response) => response.json())
       .then((response) => {
         console.log(response[0]);
@@ -45,7 +45,7 @@ export const postTouristActivy = (datos) => {
   return async function (dispatch) {
     try {
       const respuesta = await axios.post(
-        `http://localhost:3004/activities`,
+        `http://165.227.95.185:3004/activities`,
 
         datos
       );
